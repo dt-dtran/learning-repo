@@ -2,6 +2,34 @@
 
 ## Programming
 
+|  Term  | Definition                                                         |
+| :----: | ------------------------------------------------------------------ |
+| buffer | small chunck of data that is pass a bit at a time through a stream |
+| steam  | start using data, before it has finished loading                   |
+
+## System Architecture
+
+<details>
+<summary>Backend</summary>
+
+|  Term  | Definition                                     |
+| :----: | ---------------------------------------------- |
+| server | simple computer that catches incoming request. |
+
+</details>
+
+<details>
+<summary>Best Practices</summary>
+
+|      Term       | Definition                                                                          |
+| :-------------: | ----------------------------------------------------------------------------------- |
+|   Reliability   | fault-tolerance, availability, and security.                                        |
+|   Scalability   | ability to allow for a solution’s easy growth and concurrent development.           |
+|   Testability   | clean, readable code that is continuously deployed after passing automated testing. |
+| Maintainability | flexibility, enabling updates with minimum effort.                                  |
+
+</details>
+
 ## Data Engineering
 
 <details>
@@ -18,7 +46,7 @@
 | Data Warehouse | central repository of information that can be analyzed to make more informed decisions. It contains collection of data structures. |
 |    Dataset     | structured collection of individual but related items that can be accessed and processed as individually or as a unit.             |
 |   Dummy Data   | mock data that has the same content and layout as real data in a testing environment.                                              |
-|     Schema     | database blueprint determines what can be exist in the schema.                                                                     |
+|     Schema     | database blueprint determines what can be exist in the schema (properties and type).                                               |
 
 </details>
 
